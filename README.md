@@ -1,3 +1,8 @@
+## Description
+
+Portfolio made from HTML, Javascript, and CSS. I use this website to showcase my experiences, contacts, and projects.
+
+
 ### Links for images used:
 
 _All images are under Creative Commons license, found on Unsplash or Google Images.
