@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85, 85, 85);
+}
+
+a, button{
+    transition: all 200ms ease;
+}
+
+nav, 
+.nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    
+}
+
+/* 0.5rem = 8 px */
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+
+a:hover{
+    color: coral;
+    text-decoration: underline;
+    text-underline-offset: 0.75rem;
+    text-decoration-color: blue;
+}
+
+.logo{
+    font-size: 2.25rem;
+}
+
+.logo:hover{
+    cursor:default;
+    color:crimson;
+}
+
+
+#mobile-nav{
+    display: none;
+}
+
+.layers-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.layers-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.layers-icon span{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links li{
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+.layers-icon.open span:first-child{
+    transform: rotate(45deg) translate(10px, 5px);
+}
+.layers-icon.open span:nth-child(2){
+    opacity: 0;
+}
+.layers-icon.open span:last-child{
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.layers-icon span:first-child{
+    transform: none;
+}
+.layers-icon span:first-child{
+    opacity: 1;
+}
+.layers-icon span:first-child{
+    transform: none;
+}
+
+
