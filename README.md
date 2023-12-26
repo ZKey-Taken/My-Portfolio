@@ -1,6 +1,6 @@
 ## Description
 
-Portfolio made from HTML, Javascript, and CSS. I use this website to showcase my experiences, contacts, and projects.
+Portfolio Website made from HTML, Javascript, and CSS. I use this website to showcase my experiences, contacts, and projects.
 
 
 ### Links for images used:
