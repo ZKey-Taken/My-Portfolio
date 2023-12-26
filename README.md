@@ -1,7 +1,7 @@
-Links for images used:
+### Links for images used:
 
-All images are under Creative Commons license, found on Unsplash or Google Images.
-Some Images might be edited with added backgrounds.
+_All images are under Creative Commons license, found on Unsplash or Google Images.
+Some Images might be edited with added backgrounds._
 
 LinkedIn Icon: Photo by <a href="https://unsplash.com/@alexbemore?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexander Shatov</a> on <a href="https://unsplash.com/photos/blue-and-white-letter-b-9Zjd7PE_FRM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
