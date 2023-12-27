@@ -168,4 +168,28 @@ section{
 #profile{
     display: flex;
     justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.profile-picture{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section-text{
+    align-self: center;
+    text-align: center;
+}
+
+.section-text p{
+    font-weight: 600;
+}
+
+.section-text-intro{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
