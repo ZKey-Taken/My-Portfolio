@@ -213,3 +213,41 @@ section{
     height: 300px;
     width: 400px;
 }
+
+
+
+
+#resume{
+    text-align: center;
+    color: black;
+    padding: 100px;
+}
+
+.resume-title{
+    color:black;
+    font-size: 50px;
+}
+
+
+#projects{
+    text-align: center;
+    color: black;
+    padding: 100px;
+}
+
+.projects-title{
+    color:black;
+    font-size: 50px;
+}
+
+
+#contact{
+    text-align: center;
+    color: black;
+    padding: 100px;
+}
+
+.contact-title{
+    color:black;
+    font-size: 50px;
+}
