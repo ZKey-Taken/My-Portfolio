@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
 }
 
 html{
@@ -37,9 +38,8 @@ nav{
 .nav-links{
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
-
 
 a{
     color: black;
@@ -148,19 +148,15 @@ section{
     min-height: fit-content;
 }
 
-.section-text{
+.profile-text{
     font-size: 3rem;
     text-align: center;
     align-content: center;
+    text-indent: 10px;
     padding: 100px;
 }
 
-.LinkedIn-icon{
-    height: 100px;
-    width: 100px;
-}
-
-.Github-icon{
+.LinkedIn-icon, .Github-icon{
     height: 100px;
     width: 100px;
 }
@@ -179,17 +175,30 @@ section{
     margin: auto 0;
 }
 
-.section-text{
+.profile-text{
     align-self: center;
     text-align: center;
 }
 
-.section-text p{
-    font-weight: 600;
-}
-
-.section-text-intro{
+.profile-text-intro{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+
+
+#about{
+    text-align: center;
+    color: black;
+    padding: 100px;
+}
+
+.about-title{
+    color:black;
+    font-size: 50px;
+}
+
+.about-ub-pic{
+    height: 300px;
+    width: 400px;
 }
