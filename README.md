@@ -19,3 +19,5 @@ Education Icon: https://commons.wikimedia.org/wiki/File:University_cap_icon.svg
 Layer Icon: https://iconscout.com/free-icon/bullets-30
 
 Up Arrow: https://iconscout.com/icons/up-arrow
+
+UB: https://commons.wikimedia.org/wiki/File:University_of_Buffalo_%28south_campus%29_-_panoramio.jpg

@@ -187,6 +187,17 @@ section{
 }
 
 
+.goUp{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.up-arrow{
+    height: 75px;
+    width: 75px;
+}
+
 #about{
     text-align: center;
     color: black;
