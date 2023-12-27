@@ -140,4 +140,32 @@ a:hover{
     transform: none;
 }
 
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
 
+.section-text{
+    font-size: 3rem;
+    text-align: center;
+    align-content: center;
+    padding: 100px;
+}
+
+.LinkedIn-icon{
+    height: 100px;
+    width: 100px;
+}
+
+.Github-icon{
+    height: 100px;
+    width: 100px;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+}
