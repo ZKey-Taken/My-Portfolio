@@ -200,7 +200,7 @@ a:hover{
 }
 
 .about-text h1{
-    font-size: 55px;
+    font-size: 65px;
     margin-left: 3%;
     margin-top: -50px;
 }
@@ -217,9 +217,44 @@ a:hover{
     cursor: pointer;
 }
 
+.about-tabs p{
+    font-size: 30px;
+}
+
 .tabs{
     margin-right: 25px;
+    margin-bottom: 30px;
     color: darkred;
+    position: relative;
+}
+
+.tabs::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+    background: black;
+    position: absolute;
+}
+
+.tabs.active::after{
+    width: 60%;
+}
+
+.tabs-content{
+    margin-left: 3%;
+    font-size: 25px;
+}
+
+.tabs-content li{
+    padding-top: 20px;
+}
+
+.tabs-content span{
+    padding-right: 25px;
+    color: dodgerblue;
 }
 
 /* resume section */
@@ -229,19 +264,10 @@ a:hover{
     padding: 100px;
 }
 
-.resume-title{
-    color:black;
-    font-size: 50px;
-}
 
 /* projects section */
 #projects{
     text-align: center;
     color: black;
     padding: 100px;
-}
-
-.projects-title{
-    color:black;
-    font-size: 50px;
 }
