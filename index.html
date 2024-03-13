@@ -66,19 +66,19 @@
                 who is great at communication and collaboration, ensuring seamless teamwork and project success.</p>
 
             <div class="about-tabs">
-                <p class="tabs active" onclick="openTab(education)">Education</p>
-                <p class="tabs" onclick="openTab(skills)">Skills</p>
-                <p class="tabs" onclick="openTab(experience)">Experience</p>
+                <p class="tabs active-tab" onclick="openTab('skills')">Skills</p>
+                <p class="tabs" onclick="openTab('education')">Education</p>
+                <p class="tabs" onclick="openTab('experience')">Experience</p>
             </div>
-            <div class="tabs-content active" id="education">
-                <li><span>Major:</span>Computer Science</li>
-                <li><span>University:</span>State University of New York at Buffalo</li>
-                <li><span>Graduation Date:</span>06/2026</li>
-            </div>
-            <div class="tabs-content" id="skills">
+            <div class="tabs-content active-content" id="skills">
                 <li><span>Computer Languages:</span>C, C++, Java, Python, CSS, HTML, Javascript, MySQL</li>
                 <li><span>Softwares:</span>GitHub, JetBrains IDE, XCode, Canva, Microsoft Word/Powerpoint</li>
                 <li><span>Others:</span>Algorithm, Data Structures, Critical Thinking, Problem Solving, Communcation, Unit Testing</li>
+            </div>
+            <div class="tabs-content" id="education">
+                <li><span>Major:</span>Computer Science</li>
+                <li><span>University:</span>State University of New York at Buffalo</li>
+                <li><span>Graduation Date:</span>06/2026</li>
             </div>
             <div class="tabs-content" id="experience">
                 <li><span>Assistant Manager</span>at Paris Baguette</li>
@@ -95,6 +95,6 @@
 
     </section>
 
-    <script src="scipt.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

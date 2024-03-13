@@ -239,12 +239,14 @@ a:hover{
     position: absolute;
 }
 
-.tabs.active::after{
+.tabs.active-tab::after{
     width: 60%;
 }
 
 .tabs-content li{
     padding-top: 20px;
+    margin-left: 3%;
+    font-size: 25px;
 }
 
 .tabs-content span{
@@ -253,12 +255,10 @@ a:hover{
 }
 
 .tabs-content{
-    margin-left: 3%;
-    font-size: 25px;
     display: none;
 }
 
-.tabs-content.active{
+.tabs-content.active-content{
     display: block;
 }
 
