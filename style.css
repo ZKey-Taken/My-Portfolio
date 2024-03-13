@@ -224,7 +224,7 @@ a:hover{
 .tabs{
     margin-right: 25px;
     margin-bottom: 30px;
-    color: darkred;
+    color: crimson;
     position: relative;
 }
 
@@ -243,11 +243,6 @@ a:hover{
     width: 60%;
 }
 
-.tabs-content{
-    margin-left: 3%;
-    font-size: 25px;
-}
-
 .tabs-content li{
     padding-top: 20px;
 }
@@ -255,6 +250,16 @@ a:hover{
 .tabs-content span{
     padding-right: 25px;
     color: dodgerblue;
+}
+
+.tabs-content{
+    margin-left: 3%;
+    font-size: 25px;
+    display: none;
+}
+
+.tabs-content.active{
+    display: block;
 }
 
 /* resume section */
