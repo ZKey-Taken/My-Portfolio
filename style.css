@@ -17,11 +17,6 @@ p{
     color: rgb(85, 85, 85);
 }
 
-section{
-    align-items: center;
-    text-align: center;
-}
-
 a, button{
     transition: all 200ms ease;
 }
@@ -144,14 +139,7 @@ a:hover{
     transform: none;
 }
 
-section{
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-}
-
+/* profile section */
 .profile-text{
     font-size: 3rem;
     text-align: center;
@@ -163,6 +151,7 @@ section{
 .LinkedIn-icon, .Github-icon{
     height: 100px;
     width: 100px;
+    padding: 20px;
 }
 
 #profile{
@@ -177,6 +166,7 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+    padding: 20px;
 }
 
 .profile-text{
@@ -202,33 +192,37 @@ section{
     width: 75px;
 }
 
+/* about section */
 #about{
-    text-align: center;
     color: black;
-    padding: 100px;
+    display: flex;
+    padding: 150px;
 }
 
-.about-me-text{
-    color: blueviolet;
-    font-size: 20px;
+.about-text h1{
+    font-size: 55px;
+    margin-left: 3%;
+    margin-top: -50px;
 }
 
-.about-title{
-    color:black;
-    font-size: 50px;
+.about-text p{
+    font-size: 25px;
+    margin-left: 3%;
+    padding-top: 3%;
 }
 
-.about-ub-pic{
-    height: 300px;
-    width: 400px;
+.about-tabs{
+    margin-top: 45px;
+    display: flex;
+    cursor: pointer;
 }
 
-img{
-    padding: 20px;
+.tabs{
+    margin-right: 25px;
+    color: darkred;
 }
 
-
-
+/* resume section */
 #resume{
     text-align: center;
     color: black;
@@ -240,7 +234,7 @@ img{
     font-size: 50px;
 }
 
-
+/* projects section */
 #projects{
     text-align: center;
     color: black;
@@ -248,18 +242,6 @@ img{
 }
 
 .projects-title{
-    color:black;
-    font-size: 50px;
-}
-
-
-#contact{
-    text-align: center;
-    color: black;
-    padding: 100px;
-}
-
-.contact-title{
     color:black;
     font-size: 50px;
 }
