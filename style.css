@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 body{
     font-family: 'Josefin Sans', sans-serif;
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding:0;
 }
 
 html{
     scroll-behavior: smooth;
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding:0;
 }
 
 p{
@@ -264,15 +269,31 @@ a:hover{
 
 /* resume section */
 #resume{
-    text-align: center;
+    display: flex;
     color: black;
-    padding: 100px;
+    padding: 150px;
+    height:100%;
+    width:100%;
+}
+
+.resume-text h1{
+    font-size: 65px;
+    margin-left: 3%;
+    margin-top: -50px;
 }
 
 
-/* projects section */
-#projects{
-    text-align: center;
+/* contact section */
+#contact{
+    display: flex;
     color: black;
-    padding: 100px;
+    padding: 150px;
+    height:100%;
+    width:100%;
+}
+
+.contact-text h1{
+    font-size: 65px;
+    margin-left: 3%;
+    margin-top: -50px;
 }
