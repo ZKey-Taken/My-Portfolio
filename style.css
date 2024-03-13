@@ -213,7 +213,6 @@ a:hover{
 .about-text p{
     font-size: 25px;
     margin-left: 3%;
-    padding-top: 3%;
 }
 
 .about-tabs{
@@ -267,21 +266,6 @@ a:hover{
     display: block;
 }
 
-/* resume section */
-#resume{
-    display: flex;
-    color: black;
-    padding: 150px;
-    height:100%;
-    width:100%;
-}
-
-.resume-text h1{
-    font-size: 65px;
-    margin-left: 3%;
-    margin-top: -50px;
-}
-
 
 /* contact section */
 #contact{
@@ -296,4 +280,10 @@ a:hover{
     font-size: 65px;
     margin-left: 3%;
     margin-top: -50px;
+}
+
+.phone-icon, .email-icon{
+    padding-top: 50px;
+    height: 125px;
+    width: 125px;
 }
